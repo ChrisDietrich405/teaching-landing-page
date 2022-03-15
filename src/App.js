@@ -49,10 +49,8 @@ function App() {
           <p>Compare meus preços com o Cambly!</p>
         </div>
       </div>
-
       <hr />
       <p id="benefits">Beneficios</p>
-
       <div className="credentials" id="credentials benefits-cards">
         <div className="credential-box" id="benefits-box">
           <ul className="benefits-list">
@@ -90,7 +88,6 @@ function App() {
           </ul>
         </div>
       </div>
-
       <hr />
       <section className="testimonials" id="testimonials">
         <p>O que estao dizendo?</p>
@@ -158,8 +155,6 @@ function App() {
         <div className="footer-bar">Copyright © 2021</div>
       </footer>
     </div>
-
-    // <script src="javascript/index.js"></script>
   );
 }
 
