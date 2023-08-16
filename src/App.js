@@ -45,7 +45,7 @@ function App() {
       <div className="price">
         <img src={Dollars} />
         <div className="price-text">
-          <h1>$15/hora</h1>
+          <h1>$16/hora</h1>
           <p>Compare meus preços com o Cambly!</p>
         </div>
       </div>
