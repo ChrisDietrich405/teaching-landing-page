@@ -12,6 +12,7 @@ phases:
   pre_build:
     commands:
       - echo "Pre-build phase"
+      - npm test
       # Add any pre-build commands here
 
   build:
@@ -24,11 +25,6 @@ phases:
     commands:
       - echo "Post-build phase"
       # Add any post-build commands here
-
-  test:
-    commands:
-      - echo "Running tests"
-      - npm test # Run tests using npm (replace with your test command if using a different testing framework)
 
 artifacts:
   files:
