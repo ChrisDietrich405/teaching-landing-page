@@ -1,5 +1,5 @@
-import AboutMe from "./img/about-me.jpg";
-import Fabiana from "./img/fabiana.jpeg";
+// import AboutMe from "./img/about-me.jpg";
+// import Fabiana from "./img/fabiana.jpeg";
 import Fabio from "./img/fabio.jpeg";
 import Rodrigo from "./img/rodrigo.png";
 import Mirian from "./img/mirian.png";
@@ -25,7 +25,7 @@ function App() {
           </div>
         </div>
         <div className="image">
-          <img className="about-me-pic" src={AboutMe} />
+          <img className="about-me-pic" src="https://codebuild-practice123.s3.amazonaws.com/images/about-me.jpg" />
         </div>
       </div>
       <div className="credentials">
@@ -93,7 +93,7 @@ function App() {
         <p>O que estao dizendo?</p>
         <div className="testimonials-inner">
           <blockquote>
-            <img className="testimonial-pic-fab" src={Fabiana} />
+            <img className="testimonial-pic-fab" src="https://codebuild-practice123.s3.amazonaws.com/images/fabiana.jpeg"/>
 
             <div className="quote-container">
               <p>
