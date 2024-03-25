@@ -12,7 +12,7 @@ phases:
   pre_build:
     commands:
       - echo "Pre-build phase"
-      - npm test
+      - npm test --watchAll=false
       # Add any pre-build commands here
 
   build:
